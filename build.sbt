@@ -482,7 +482,7 @@ lazy val `scio-core`: Project = project
       "me.lyh" %% "protobuf-generic" % protobufGenericVersion,
       "org.apache.avro" % "avro" % avroVersion,
       "org.apache.beam" % "beam-runners-core-construction-java" % beamVersion,
-      "org.apache.beam" % "beam-runners-google-cloud-dataflow-java" % beamVersion % Provided,
+      "org.apache.beam" % "beam-runners-google-cloud-dataflow-java" % beamVersion,
       "org.apache.beam" % "beam-runners-spark" % beamVersion % Provided exclude (
         "com.fasterxml.jackson.module", "jackson-module-scala_2.11"
       ),
