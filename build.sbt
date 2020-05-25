@@ -67,7 +67,7 @@ val googleAuthVersion = "0.19.0"
 val googleClientsVersion = "1.30.5"
 val googleCloudSpannerVersion = "1.49.1"
 val googleHttpClientsVersion = "1.34.0"
-val grpcVersion = "1.25.0"
+val grpcVersion = "1.26.0"
 val guavaVersion = "28.2-jre"
 val hadoopVersion = "2.7.7"
 val hamcrestVersion = "2.2"
@@ -470,6 +470,7 @@ lazy val `scio-core`: Project = project
       "com.twitter" %% "chill" % chillVersion,
       "com.twitter" %% "chill-algebird" % chillVersion,
       "commons-io" % "commons-io" % commonsIoVersion,
+      "io.grpc" % "grpc-all" % grpcVersion,
       "io.grpc" % "grpc-auth" % grpcVersion,
       "io.grpc" % "grpc-core" % grpcVersion,
       "io.grpc" % "grpc-netty" % grpcVersion,
