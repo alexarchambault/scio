@@ -25,3 +25,6 @@ libraryDependencies ++= Seq(
   "com.github.os72" % "protoc-jar" % "3.11.4",
   "org.apache.avro" % "avro-compiler" % "1.8.2"
 )
+
+addSbtPlugin("io.get-coursier" % "sbt-lm-coursier" % "2.0.0-RC6-4+35-33d9bba5-SNAPSHOT")
+addSbtPlugin("io.github.alexarchambault.sbt" % "sbt-coursier-export" % "0.0.0+3-499a7c89+20200522-1926-SNAPSHOT")
